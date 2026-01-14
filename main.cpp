@@ -3,7 +3,11 @@
 
 int main(){
     
-    StringPool::Init(1024 * 1024);
+    // StringPool::Init(2* 2);
+    //pool is full error
+    
+    StringPool::Init(4*4);
+
     LibStr name("Umut");
     LibStr kopya = name;
 

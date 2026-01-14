@@ -1,0 +1,35 @@
+
+******DEBUG AND RUN******
+cl /EHsc main.cpp StringPool.cpp LibStr.cpp
+./main
+
+
+
+
+******STACKOVERFLOW******
+https://stackoverflow.com/questions/4700991/c-implementing-copy-constructor-and-copy-assignment-operator
+https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename
+https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom
+https://stackoverflow.com/questions/276173/what-are-your-favorite-c-coding-style-idioms/2034447#2034447
+https://www.geeksforgeeks.org/cpp/copy-swap-idiom-c/
+https://stackoverflow.com/questions/184537/in-what-cases-do-i-use-malloc-and-or-new
+
+
+
+
+
+
+******BOOKS******
+https://pages.cs.wisc.edu/~remzi/OSTEP/vm-freespace.pdf
+
+
+
+Memory Leak Dedection
+
+
+String Utilities
+Research: "string manipulation algorithms"
+substring(), find(), replace()
+toUpper(), toLower()
+trim(), split()
+startsWith(), endsWith()

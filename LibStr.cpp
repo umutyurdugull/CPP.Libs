@@ -47,10 +47,6 @@ LibStr& LibStr::operator=(const LibStr& other)
         Unless you're suicidal.
     */
 
-
-
-
-
     return *this;
 }
 
