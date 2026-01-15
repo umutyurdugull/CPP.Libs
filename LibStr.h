@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-class LibStr { 
+class LibStr {
 
 private:
     char* data;
@@ -17,7 +17,7 @@ public:
     ~LibStr();
 
     LibStr(const LibStr& other);
-
+    LibStr& append(const char* str);
     void print() const;
     char& operator[](int index);
     unsigned int length() const { return len; }

@@ -11,9 +11,7 @@ private:
 
 public:
     static void Init(size_t size);
-
     static char* Alloc(size_t size);
-
     static void CleanUp();
 };
 
